@@ -13,9 +13,12 @@ const Navbar = () => {
             <li><Link to={'/'}>Contact</Link></li>
         </>
         ;
+
+        const customBackgroundColor = {backgroundColor: '#253741'};
+
     return (
         <div>
-            <div className="navbar bg-base-200">
+            <div className="navbar bg-base-300">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
