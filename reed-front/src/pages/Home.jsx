@@ -1,4 +1,5 @@
 import CardContainer from "../components/homepage/CardContainer";
+import ClientSection from "../components/homepage/ClientSection";
 import HomeAbout from "../components/homepage/HomeAbout";
 import HomeBanner from "../components/homepage/HomeBanner";
 
@@ -13,6 +14,9 @@ const Home = () => {
             </div>
             <div>
                 <HomeAbout></HomeAbout>
+            </div>
+            <div>
+                <ClientSection></ClientSection>
             </div>
         </div>
     );
