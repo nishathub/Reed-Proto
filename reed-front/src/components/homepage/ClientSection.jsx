@@ -40,7 +40,7 @@ const ClientSection = () => {
         </>
     return (
         <div className="bg-cyan-950 py-8 md:py-20">
-            <h2 className="text-2xl md:text-4xl text-yellow-500 text-center mb-8">Our Clients</h2>
+            <h2 className="text-2xl md:text-4xl text-yellow-500 text-center mb-8 uppercase">Our Clients</h2>
             <div className="">
                 <CustomMarquee>
                     {reedClients}

@@ -10,7 +10,7 @@ const Testimonial = () => {
     return (
         <div className="py-8 md:py-20 bg-cyan-950">
             <div className="mb-8">
-                <h2 className="text-2xl md:text-4xl text-yellow-500 text-center">Testimonials</h2>
+                <h2 className="text-2xl md:text-4xl text-yellow-500 text-center uppercase">Testimonials</h2>
             </div>
             <div>
             <TestimonialCarousel testimonials={testimonials}></TestimonialCarousel>

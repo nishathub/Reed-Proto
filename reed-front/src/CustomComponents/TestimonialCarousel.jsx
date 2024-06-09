@@ -60,8 +60,8 @@ const TestimonialCarousel = ({ testimonials }) => {
                 &#10094;
             </button>
             <div style={styles.testimonial}>
-                <p className='text-lg text-gray-300'>{testimonials[currentIndex].text}</p>
-                <h4 className='text-xl text-yellow-500 mt-8'>{testimonials[currentIndex].designation}</h4>
+                <p className='md:text-lg text-gray-300'>{testimonials[currentIndex].text}</p>
+                <h4 className='md:text-xl text-yellow-500 mt-8'>{testimonials[currentIndex].designation}</h4>
                 <p className='font-mono font-bold text-yellow-500'>{testimonials[currentIndex].author}</p>
             </div>
             <button
