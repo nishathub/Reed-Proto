@@ -4,7 +4,7 @@
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;
-    background: rgba(255, 255, 255, 0.3);
+    /* background: rgba(255, 255, 255, 0.3); */
     padding: 10px 0;
     position: relative;
   }

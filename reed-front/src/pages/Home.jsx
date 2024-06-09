@@ -2,6 +2,7 @@ import CardContainer from "../components/homepage/CardContainer";
 import ClientSection from "../components/homepage/ClientSection";
 import HomeAbout from "../components/homepage/HomeAbout";
 import HomeBanner from "../components/homepage/HomeBanner";
+import Testimonial from "../components/homepage/Testimonial";
 
 const Home = () => {
     return (
@@ -17,6 +18,9 @@ const Home = () => {
             </div>
             <div>
                 <ClientSection></ClientSection>
+            </div>
+            <div>
+                <Testimonial></Testimonial>
             </div>
         </div>
     );
